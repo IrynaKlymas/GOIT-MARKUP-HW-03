@@ -55,8 +55,7 @@ letter-spacing: 0.02em;
 }
 
 .section {
-padding-top: 120px;
-padding-bottom: 120px;
+padding: 120px 0 120px;
 }
 
 /*common*/
