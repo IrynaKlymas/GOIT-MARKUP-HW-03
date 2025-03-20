@@ -29,6 +29,7 @@ text-decoration: none;
 
 img {
 display: block;
+width: 100%;
 }
 
 .title {
@@ -125,10 +126,7 @@ line-height: 150%;
 letter-spacing: 0.02em;
 color: #434455;
 font-style: normal;
-padding-top: 24px;
-padding-bottom: 24px;
 }
-
 
 .contacts-link {
 display: block;
@@ -213,7 +211,6 @@ gap: 24px;
 .goals-item{
 background-color: #ffffff;
 flex-basis: calc((100% - 72px) / 4);
-border-radius: 0 0 4px 4px;
 }
 
 .goal-title{
@@ -314,7 +311,7 @@ flex-basis: calc((100% - 48px) / 3);
 }
 
 .portfolio-bottom {
-padding: 32px 16px;
+padding: 0 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
 }
@@ -325,7 +322,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
-margin-bottom: 8px;
+padding-top: 32px;
 }
 
 .place-service{
